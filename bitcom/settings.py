@@ -77,13 +77,24 @@ WSGI_APPLICATION = 'bitcom.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'votersapplication',
-        'USER':'root',
-        'PASSWORD':'daniel1995',
-        'PORT':'3306',
-        'HOST':'127.0.0.1'
+        'NAME': 'heroku_25a21f759f17d72',
+        'USER': 'b14a8a4723f53b',
+        'PASSWORD': 'b12159bf',
+        'PORT': '3306',
+        'HOST': 'us-cdbr-east-02.cleardb.com'
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'votersapplication',
+#         'USER':'root',
+#         'PASSWORD':'daniel1995',
+#         'PORT':'3306',
+#         'HOST':'127.0.0.1'
+#     }
+# }
 
 
 # Password validation
